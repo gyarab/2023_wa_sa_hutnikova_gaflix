@@ -1,42 +1,52 @@
 [
-  {
-    "model": "filmy.director",
-    "pk": 1,
-    "fields": {
-      "name": "Joseph Kosinski",
-      "birth_year": 1974,
-      "description": "",
-      "main_picture": ""
-    }
-  },
-  {
-    "model": "filmy.director",
-    "pk": 2,
-    "fields": {
-      "name": "Andrew Adamson",
-      "birth_year": 1966,
-      "description": "",
-      "main_picture": ""
-    }
-  },
-  {
-    "model": "filmy.director",
-    "pk": 3,
-    "fields": {
-      "name": "Quentin Tarantino",
-      "birth_year": 1963,
-      "description": "",
-      "main_picture": ""
-    }
-  },
-  {
-    "model": "filmy.director",
-    "pk": 4,
-    "fields": {
-      "name": "David Fincher",
-      "birth_year": 1962,
-      "description": "",
-      "main_picture": ""
-    }
+{
+  "model": "filmy.director",
+  "pk": 2,
+  "fields": {
+    "name": "Brian De Palma",
+    "birth_year": 1940,
+    "description": "He is an American film director and screenwriter. With a career spanning over 50 years, he is best known for work in the suspense, crime and psychological thriller genres.",
+    "main_picture": ""
   }
+},
+{
+  "model": "filmy.director",
+  "pk": 4,
+  "fields": {
+    "name": "Francis Ford Coppola",
+    "birth_year": 1939,
+    "description": "He is an American film director, producer, and screenwriter. He is considered one of the leading figures of the New Hollywood film movement of the 1960s and 1970s and is widely considered one of the greatest directors of all time. Coppola is the recipient of five Academy Awards, six Golden Globe Awards, two Palmes d'Or, and a British Academy Film Award (BAFTA).",
+    "main_picture": ""
+  }
+},
+{
+  "model": "filmy.director",
+  "pk": 5,
+  "fields": {
+    "name": "Steven Spielberg",
+    "birth_year": 1946,
+    "description": "He is an American filmmaker. A major figure of the New Hollywood era and pioneer of the modern blockbuster, he is the most commercially successful director in film history.",
+    "main_picture": ""
+  }
+},
+{
+  "model": "filmy.director",
+  "pk": 6,
+  "fields": {
+    "name": "George Lucas",
+    "birth_year": 1944,
+    "description": "He is an American filmmaker and philanthropist. He created the Star Wars and Indiana Jones franchises and founded Lucasfilm, LucasArts, Industrial Light & Magic and THX.",
+    "main_picture": ""
+  }
+},
+{
+  "model": "filmy.director",
+  "pk": 7,
+  "fields": {
+    "name": "Sergio Leone",
+    "birth_year": 1929,
+    "description": "He was an Italian filmmaker, credited as the pioneer of the spaghetti Western genre. He is widely regarded as one of the most influential directors in the history of cinema",
+    "main_picture": ""
+  }
+}
 ]

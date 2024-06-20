@@ -1,22 +1,62 @@
 [
-    {
-        "model": "filmy.actor",
-        "pk": 1,
-        "fields": {
-            "name": "Brad Pitt",
-            "birth_year": 1963,
-            "description": "Od začátku devadesátých let přitahuje pozornost diváků i médií, ale protože nehýří informacemi ani aférami ze svého soukromí, nezbývá, než si přiznat, že Pitta téměř neznáme.   I když dnes nikdo nepochybuje o jeho hereckém talentu, nezapomene přitom ani okomentovat jeho vzhled. Tu tvář už Pittovi nikdo neodpáře, ačkoli tvrdí: „Kašlu na to jak vypadám, a celá ta hysterie okolo mne už mi leze krkem...",
-            "main_picture": "//image.pmgstatic.com/cache/resized/w100h132crop/files/images/creator/photos/159/168/159168406_ea0e56.jpg"
-        }
-    },
-    {
-        "model": "filmy.actor",
-        "pk": 2,
-        "fields": {
-            "name": "Tom Cruise",
-            "birth_year": 1962,
-            "description": "Největší hitmaker v Hollywoodu, v takové pozici se už roky nachází herecká hvězda Tom Cruise, herec, jenž se narodil v kočovné rodině, která se neustále stěhovala kvůli práci jeho otce (inženýra). Kvůli stěhování měl problémy s učením, které byly spojeny s jeho dyslexií a tak vynikal pouze ve sportu. Po dokončení střední školy se v roce 1980 odhodlal pro hereckou kariéru. Jako většina herců začínal v divadle a v menších rolích v divácky celkem úspěšných filmech…",
-            "main_picture": "//image.pmgstatic.com/cache/resized/w100h132crop/files/images/creator/photos/166/432/166432435_af1fc8.jpg"
-        }
-    }
+{
+  "model": "filmy.actor",
+  "pk": 2,
+  "fields": {
+    "name": "Tom Cruise",
+    "birth_year": 1962,
+    "description": "Tom Cruise is an American actor and producer. Regarded as a Hollywood icon,  he has received various accolades, including an Honorary Palme d'Or and three Golden Globe Awards, in addition to nominations for four Academy Awards. His films have grossed over $4 billion in North America and over $11.5 billion worldwide,  making him one of the highest-grossing box-office stars of all time. He is consistently one of the world's highest-paid actors.",
+    "main_picture": ""
+  }
+},
+{
+  "model": "filmy.actor",
+  "pk": 3,
+  "fields": {
+    "name": "Marlon Brando",
+    "birth_year": 1924,
+    "description": "He was an American actor and activist. Widely considered one of the greatest and most influential actors of all time, he received numerous accolades throughout his career, which spanned six decades, including two Academy Awards, two Golden Globe Awards, one Cannes Film Festival Award, and three British Academy Film Awards. Brando is credited with being one of the first actors to bring the Stanislavski system of acting and method acting to mainstream audiences.",
+    "main_picture": ""
+  }
+},
+{
+  "model": "filmy.actor",
+  "pk": 4,
+  "fields": {
+    "name": "Jon Voight",
+    "birth_year": 1938,
+    "description": "He is an American actor. He has received numerous accolades, including an Academy Award, a British Academy Film Award, and four Golden Globe Awards as well as nominations for four Primetime Emmy Awards. In 2019, he was awarded the National Medal of Arts. Films in which Voight has appeared have grossed more than $5.2 billion worldwide.",
+    "main_picture": ""
+  }
+},
+{
+  "model": "filmy.actor",
+  "pk": 5,
+  "fields": {
+    "name": "Harrison Ford",
+    "birth_year": 1942,
+    "description": "He is an American actor. He has been a leading man in films of several genres, and is regarded as an American cultural icon.",
+    "main_picture": ""
+  }
+},
+{
+  "model": "filmy.actor",
+  "pk": 6,
+  "fields": {
+    "name": "Mark Hamill",
+    "birth_year": 1951,
+    "description": "He is an American actor. He starred as Luke Skywalker in the Star Wars franchise, in the original and sequel trilogies.",
+    "main_picture": ""
+  }
+},
+{
+  "model": "filmy.actor",
+  "pk": 7,
+  "fields": {
+    "name": "Henry Fonda",
+    "birth_year": 1905,
+    "description": "This remarkable, soft-spoken American began in films as a diffident juvenile. With passing years, he matured into a star character actor who exemplified not only integrity and strength, but an ideal of the common man fighting against social injustice and oppression.",
+    "main_picture": ""
+  }
+}
 ]

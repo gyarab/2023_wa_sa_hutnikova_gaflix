@@ -1,93 +1,119 @@
 [
-  {
-    "model": "filmy.movie",
-    "pk": 1,
-    "fields": {
-      "name": "Top Gun: Maverick",
-      "year": 2022,
-      "footage": null,
-      "description": "Pete „Maverick“ Mitchell (Tom Cruise) k smrti rád pilotuje stíhačky. Dokonce tak, že se už přes třicet let úspěšně brání povýšení ve strukturách amerického letectva, protože to by ho z kokpitu vyhnalo do vyhřáté kanceláře. Maverick byl navíc vždycky magnetem na průšvihy, což se s armádní kariérou taky docela vylučuje.",
-      "main_picture": "//image.pmgstatic.com/cache/resized/w663/files/images/film/posters/166/205/166205318_28cfab.jpg",
-      "director": 1,
-      "actors": [
-        2
-      ],
-      "genres": [
-        1,
-        2
-      ]
-    }
-  },
-  {
-    "model": "filmy.movie",
-    "pk": 2,
-    "fields": {
-      "name": "Shrek",
-      "year": 2001,
-      "footage": null,
-      "description": "Odvážný Shrek (Mike Myers) pátrá se svým kamarádem, sympatickým a chvastounským oslem (Eddie Murphy) po krásné a divoké princezně Fioně (Cameron Diaz). Za její záchranu chce od intrikána Lorda Farquadda (John Lithgow) získat zpět svou milovanou bažinu.",
-      "main_picture": "//image.pmgstatic.com/cache/resized/w663/files/images/film/posters/158/600/158600745_6cc2db.jpg",
-      "director": 2,
-      "actors": [],
-      "genres": [
-        3,
-        4,
-        5,
-        6
-      ]
-    }
-  },
-  {
-    "model": "filmy.movie",
-    "pk": 3,
-    "fields": {
-      "name": "Pulp Fiction: Historky z podsvětí",
-      "year": 1994,
-      "footage": null,
-      "description": "Nejkultovnější z kultovních filmů 90. let je autorskou Biblí Quentina Tarantina, který v tomto opusu definoval základní prvky své režisérské poetiky a vytvořil dílo rozněcující náročné kritiky na festivalu v Cannes, levicové a pravicové intelektuály i zedníky dopřávající si po těžké šichtě trochu oddychu.",
-      "main_picture": "//image.pmgstatic.com/cache/resized/w663/files/images/film/posters/158/336/158336635_61bc7c.jpg",
-      "director": 3,
-      "actors": [],
-      "genres": [
-        7,
-        2
-      ]
-    }
-  },
-  {
-    "model": "filmy.movie",
-    "pk": 4,
-    "fields": {
-      "name": "Fight Club",
-      "year": 1999,
-      "footage": null,
-      "description": "Když nemůžete půl roku usnout, celý okolní svět vám začne připadat jako nekonečný sen. Všechno kolem vás je nedokonalou xeroxovou kopií sebe sama. Chodíte do práce, díváte se na televizi a jste vděčni za to, když občas ztratíte vědomí a nevíte o světě. Lidí s podobnými problémy moc není, ale mladý úspěšný úředník, který si říká Jack, je jedním z nich. Má slušnou práci, vydělává slušné peníze, ale trpí nejtěžší formou nespavosti. Na služební cestě se Jack seznámí s Tylerem Durdenem, který mu nabídne příbytek pod podmínkou, že mu vrazí pořádnou ránu. Tato \"výměna názorů\" se oběma zalíbí a brzy vznikne první Klub rváčů. Místo, kde můžou mladí muži, znechucení světem, odložit své starosti a stát se na pár minut zvířaty.",
-      "main_picture": "//image.pmgstatic.com/cache/resized/w663/files/images/film/posters/162/468/162468180_3e343f.jpg",
-      "director": null,
-      "actors": [
-        1
-      ],
-      "genres": [
-        8,
-        2
-      ]
-    }
-  },
-  {
-    "model": "filmy.movie",
-    "pk": 5,
-    "fields": {
-      "name": "Samotáři",
-      "year": 2000,
-      "footage": null,
-      "description": "Sedm mladých lidí ve věku od 23 do 33 let se na konci devadesátých let ve velkém městě pokouší praktikovat cosi, čemu se dříve říkalo milostný vztah. A tak na sebe milostně narážejí a nechávají se unášet napříč dlouhodobějšími či krátkodobějšími vztahy, které je dovedou zpět do samoty. Robert pracuje v cestovní kanceláři a rád rozplétá a splétá osudy lidí. Napomůže rozchodu Hanky a Petra, který se pokouší pochopit život skrze nahrávky „opravdového života“ pouštěné do éteru. Zatímco je Hanka pronásledována Ondřejem, do té doby uznávaným lékařem a otcem rodiny, seznamuje se s Jakubem, jehož pozitivnímu pohledu na svět pomáhá pravidelné užívání marihuany. Na druhé straně to ale způsobuje zhoršování jeho krátkodobé paměti, takže se v jejich vztahu objevují problémy. Zklamaná Hanka hledá pochopení u rodičů, ale doma najde jen dvacet Japonců sledujících „normální rodinku při normální večeři“.",
-      "main_picture": "//image.pmgstatic.com/cache/resized/w663/files/images/film/posters/158/305/158305223_c64891.jpg",
-      "director": null,
-      "actors": [],
-      "genres": [
-        6,
-        2
-      ]
-    }
+{
+  "model": "filmy.movie",
+  "pk": 1,
+  "fields": {
+    "name": "Mission: Impossible",
+    "year": 1996,
+    "footage": 110,
+    "description": "An American agent, under false suspicion of disloyalty, must discover and expose the real spy without the help of his organization.",
+    "main_picture": "https://upload.wikimedia.org/wikipedia/en/e/e1/MissionImpossiblePoster.jpg",
+    "director": 2,
+    "actors": [
+      2,
+      4
+    ],
+    "genres": [
+      1,
+      4,
+      8
+    ]
   }
+},
+{
+  "model": "filmy.movie",
+  "pk": 5,
+  "fields": {
+    "name": "The Godfather",
+    "year": 1972,
+    "footage": 175,
+    "description": "Widely regarded as one of the greatest films of all time, this mob drama, based on Mario Puzo's novel of the same name, focuses on the powerful Italian-American crime family of Don Vito Corleone (Marlon Brando). When the don's youngest son, Michael (Al Pacino), reluctantly joins the Mafia, he becomes involved in the inevitable cycle of violence and betrayal. Although Michael tries to maintain a normal relationship with his wife, Kay (Diane Keaton), he is drawn deeper into the family business.",
+    "main_picture": "https://upload.wikimedia.org/wikipedia/en/1/1c/Godfather_ver1.jpg",
+    "director": 4,
+    "actors": [
+      3
+    ],
+    "genres": [
+      2,
+      7
+    ]
+  }
+},
+{
+  "model": "filmy.movie",
+  "pk": 6,
+  "fields": {
+    "name": "Jaws",
+    "year": 1975,
+    "footage": 124,
+    "description": "",
+    "main_picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Jaws_movie_poster.png/1920px-Jaws_movie_poster.png",
+    "director": 5,
+    "actors": [],
+    "genres": [
+      4,
+      8,
+      9
+    ]
+  }
+},
+{
+  "model": "filmy.movie",
+  "pk": 7,
+  "fields": {
+    "name": "Indiana Jones and the Temple of Doom",
+    "year": 1984,
+    "footage": 118,
+    "description": "In 1935, Indiana Jones is tasked by Indian villagers with reclaiming a rock stolen from them by a secret cult beneath the catacombs of an ancient palace.",
+    "main_picture": "https://upload.wikimedia.org/wikipedia/en/1/10/Indiana_Jones_and_the_Temple_of_Doom_PosterB.jpg",
+    "director": 6,
+    "actors": [
+      5
+    ],
+    "genres": [
+      1,
+      4,
+      9
+    ]
+  }
+},
+{
+  "model": "filmy.movie",
+  "pk": 8,
+  "fields": {
+    "name": "Star Wars IV",
+    "year": 1977,
+    "footage": 121,
+    "description": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.",
+    "main_picture": "https://upload.wikimedia.org/wikipedia/en/8/87/StarWarsMoviePoster1977.jpg",
+    "director": 6,
+    "actors": [
+      5,
+      6
+    ],
+    "genres": [
+      1,
+      4,
+      9
+    ]
+  }
+},
+{
+  "model": "filmy.movie",
+  "pk": 9,
+  "fields": {
+    "name": "Once Upon a Time in the West",
+    "year": 1968,
+    "footage": 166,
+    "description": "A mysterious stranger with a harmonica joins forces with a notorious desperado to protect a beautiful widow from a ruthless assassin working for the railroad.",
+    "main_picture": "https://upload.wikimedia.org/wikipedia/en/a/a2/Once_upon_a_Time_in_the_West.jpg",
+    "director": 7,
+    "actors": [
+      7
+    ],
+    "genres": [
+      2
+    ]
+  }
+}
 ]

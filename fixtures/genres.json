@@ -1,58 +1,65 @@
 [
-  {
-    "model": "filmy.genre",
-    "pk": 1,
-    "fields": {
-      "name": "Akční"
-    }
-  },
-  {
-    "model": "filmy.genre",
-    "pk": 2,
-    "fields": {
-      "name": "Drama"
-    }
-  },
-  {
-    "model": "filmy.genre",
-    "pk": 3,
-    "fields": {
-      "name": "Animovaný"
-    }
-  },
-  {
-    "model": "filmy.genre",
-    "pk": 4,
-    "fields": {
-      "name": "Dobrodružný"
-    }
-  },
-  {
-    "model": "filmy.genre",
-    "pk": 5,
-    "fields": {
-      "name": "Rodinný"
-    }
-  },
-  {
-    "model": "filmy.genre",
-    "pk": 6,
-    "fields": {
-      "name": "Komedie"
-    }
-  },
-  {
-    "model": "filmy.genre",
-    "pk": 7,
-    "fields": {
-      "name": "Krimi"
-    }
-  },
-  {
-    "model": "filmy.genre",
-    "pk": 8,
-    "fields": {
-      "name": "Thriller"
-    }
+{
+  "model": "filmy.genre",
+  "pk": 1,
+  "fields": {
+    "name": "Action"
   }
+},
+{
+  "model": "filmy.genre",
+  "pk": 2,
+  "fields": {
+    "name": "Drama"
+  }
+},
+{
+  "model": "filmy.genre",
+  "pk": 3,
+  "fields": {
+    "name": "Anime"
+  }
+},
+{
+  "model": "filmy.genre",
+  "pk": 4,
+  "fields": {
+    "name": "Adventure"
+  }
+},
+{
+  "model": "filmy.genre",
+  "pk": 5,
+  "fields": {
+    "name": "Family"
+  }
+},
+{
+  "model": "filmy.genre",
+  "pk": 6,
+  "fields": {
+    "name": "Comedy"
+  }
+},
+{
+  "model": "filmy.genre",
+  "pk": 7,
+  "fields": {
+    "name": "Crime"
+  }
+},
+{
+  "model": "filmy.genre",
+  "pk": 8,
+  "fields": {
+    "name": "Thriller"
+  }
+},
+{
+  "model": "filmy.genre",
+  "pk": 9,
+  "fields": {
+    "name": "Fantasy"
+  }
+}
 ]
